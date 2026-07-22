@@ -12,18 +12,20 @@ Create a directory and debootstrap Debian 12 Bookworm:
 ```bash
 mkdir -p ~/annira/rootfs
 sudo debootstrap --arch=amd64 bookworm ~/annira/rootfs http://deb.debian.org/debian/
-
+```
 ## 3. Chroot & PKG setup
+
+```bash
 sudo mount --bind /dev ~/annira/rootfs/dev
 sudo mount -t proc proc ~/annira/rootfs/proc
 sudo mount -t sysfs sys ~/annira/rootfs/sys
 sudo chroot ~/annira/rootfs
-
-Once inside the chroot environment, execute the following:
--Install Linux Kernel & GRUB
--Install Nix Package Manager & Flatpak
--Configure hostname and create /etc/skel/Installation_Guide.txt
+```
+All you need to do is...
+- Install Linux Kernel & GRUB
+- Install Nix Package Manager & Flatpak
+- Configure hostname and create /etc/skel/Installation_Guide.txt
 
 ## 4. Packing ISO
--Create SquashFS image from rootfs using mksquashfs
--Generate bootable ISO using xorriso with GRUB configuration
+- Create SquashFS image from rootfs using mksquashfs
+- Generate bootable ISO using xorriso with GRUB configuration
