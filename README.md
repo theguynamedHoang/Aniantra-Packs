@@ -1,16 +1,16 @@
 # Aniantra-Packs
 
-A repository that containing the build source code and documents for all project created by me.
+A repository that containing the build source code and documents for all project created by me. (Anrpm-tree distro)
 
 ---
 
 ## Project included:
 
-## Annira Linux 12 (v1.0-based)
+### Annira Linux 12 (v1.0-based)
 
-- A Lightweight, minimal and it contain with 3 Packages (Nix, Apt and Flatpak)
+A Lightweight, minimal and it contain with 3 Packages (Nix, Apt and Flatpak)
 
-### More information about this Linux Distro:
+- More information about this Linux Distro:
 
 * **Based on:** Debian 12 Bookworm
 * **ISO Size:** About 700MB
