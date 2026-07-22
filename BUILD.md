@@ -3,14 +3,15 @@
 This document contains step-by-step instructions used to build the Annira Linux 12 ISO.
 
 ## 1. Prerequisites
-- Debian or Ubuntu host (or Debian/Ubuntu-based distro)
-- Required tools: `debootstrap`, `squashfs-tools`, `xorriso`, `grub-pc-bin`, `grub-efi-amd64-bin`
+* Debian or Ubuntu host (or Debian/Ubuntu-based distro)
+* Required tools: `debootstrap`, `squashfs-tools`, `xorriso`, `grub-pc-bin`, `grub-efi-amd64-bin`
 
 ## 2. Environment Setup
 Create a directory and debootstrap Debian 12 Bookworm:
 
-'mkdir -p ~/annira/rootfs'
-'sudo debootstrap --arch=amd64 bookworm ~/annira/rootfs http://deb.debian.org/debian/'
+```bash
+mkdir -p ~/annira/rootfs
+sudo debootstrap --arch=amd64 bookworm ~/annira/rootfs http://deb.debian.org/debian/
 
 ## 3. Chroot & PKG setup
 sudo mount --bind /dev ~/annira/rootfs/dev
