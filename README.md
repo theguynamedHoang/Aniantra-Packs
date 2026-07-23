@@ -1,12 +1,10 @@
-# Aniantra-Packs
+# Aniantra-Packs Repository
 
 A repository that containing the build source code and documents for all project created by me. (Anrpm-tree distro)
 
 ---
 
-## Project included:
-
-# Anrpm-tree Linux Distros
+## Projects included:
 
 ### Annira Linux 12 (v1.0-based)
 
