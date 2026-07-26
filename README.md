@@ -6,7 +6,9 @@ A repository that containing the build source code and documents for all project
 
 ## Projects included:
 
-### Annira Linux 12 (v1.0-based)
+### AnniraFSA Linux (Release soon)
+
+### Annira Linux 12 (v1.0-based) (Discontinued)
 
 - A Lightweight, minimal and it contain with 3 Packages (Nix, Apt and Flatpak)
 
